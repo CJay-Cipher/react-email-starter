@@ -9,7 +9,7 @@ const playStoreLogo = "https://esemie-assets.s3.eu-west-1.amazonaws.com/app_icon
 const blueArrow = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/right_arrow_blue-sm.png";
 const chartIcon = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/chart_icon.png";
 
-export const AcceptInvitation = () => (
+export const TwoWeeks = () => (
   <Html>
     <Head />
     <Body
@@ -83,12 +83,25 @@ export const AcceptInvitation = () => (
                 Overview
               </Column>
             </Row>
-            <Section style={{ width: "100%", maxWidth: "400px", backgroundColor: "#F2F1FE", padding: "20px 50px", borderRadius: "10px", marginTop: "12px" }}>
+            <Row style={{ paddingBottom: "10px" }}>
+              <Column align="center" style={{ color: "#667085", fontSize: "16px", fontWeight: "600" }}>
+                This report compares activities from <span style={{ color: "#000000" }}>2 weeks ago</span> vs <span style={{ color: "#000000" }}>last week</span>
+              </Column>
+            </Row>
+            <Section style={{ width: "100%", maxWidth: "400px", backgroundColor: "#F2F1FE", padding: "15px 50px", borderRadius: "10px", marginTop: "12px" }}>
               <Row>
                 <Column style={{ color: "black", fontSize: "16px", textAlign: "center" }}>Cash Balance</Column>
               </Row>
               <Row>
-                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>NGN 2,000,000</Column>
+                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", padding: "10px 0" }}>NGN 2,000,000</Column>
+              </Row>
+              <Row>
+                <Column style={{ color: "#475467", fontWeight: "500", fontSize: "14px", textAlign: "center", paddingTop: "5px" }}>
+                  Up by <span style={{ color: "#039855", fontWeight: "500", fontSize: "14px" }}> ▲ 2.3%</span>
+                </Column>
+              </Row>
+              <Row>
+                <Column style={{ color: "#475467", fontWeight: "500", fontSize: "14px", textAlign: "center", paddingTop: "2px" }}>Last week vs 2 weeks ago</Column>
               </Row>
             </Section>
 
@@ -99,6 +112,14 @@ export const AcceptInvitation = () => (
               <Row>
                 <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>12</Column>
               </Row>
+              <Row>
+                <Column style={{ color: "#475467", fontWeight: "500", fontSize: "14px", textAlign: "center", paddingTop: "5px" }}>
+                  Up by <span style={{ color: "#039855", fontWeight: "500", fontSize: "14px" }}> ▲ 2%</span>
+                </Column>
+              </Row>
+              <Row>
+                <Column style={{ color: "#475467", fontWeight: "500", fontSize: "14px", textAlign: "center", paddingTop: "2px" }}>Last week vs 2 weeks ago</Column>
+              </Row>
             </Section>
 
             <Section style={{ width: "100%", maxWidth: "400px", backgroundColor: "#ECFDF3", padding: "20px 50px", borderRadius: "10px", marginTop: "12px" }}>
@@ -107,6 +128,11 @@ export const AcceptInvitation = () => (
               </Row>
               <Row>
                 <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>NGN 1,000,000</Column>
+              </Row>
+              <Row>
+                <Column style={{ color: "#475467", fontWeight: "500", fontSize: "14px", textAlign: "center", paddingTop: "5px" }}>
+                  Down by <span style={{ color: "#D92D20", fontWeight: "500", fontSize: "14px" }}> ▼ 5.0% </span> vs last week
+                </Column>
               </Row>
             </Section>
           </Section>
@@ -225,7 +251,7 @@ export const AcceptInvitation = () => (
                   style={{
                     fontSize: "18px",
                     backgroundColor: "#E0EEFE",
-                    color: "#0469C5",
+                    color: "#475467",
                     fontWeight: "600",
                     padding: "10px 15px",
                     borderRadius: "5px",
@@ -483,4 +509,4 @@ export const AcceptInvitation = () => (
   </Html>
 );
 
-export default AcceptInvitation;
+export default TwoWeeks;

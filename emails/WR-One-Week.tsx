@@ -9,7 +9,7 @@ const playStoreLogo = "https://esemie-assets.s3.eu-west-1.amazonaws.com/app_icon
 const blueArrow = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/right_arrow_blue-sm.png";
 const chartIcon = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/chart_icon.png";
 
-export const AcceptInvitation = () => (
+export const OneWeek = () => (
   <Html>
     <Head />
     <Body
@@ -83,12 +83,19 @@ export const AcceptInvitation = () => (
                 Overview
               </Column>
             </Row>
+            <Row style={{ paddingBottom: "10px" }}>
+              <Column align="center" style={{ color: "#667085", fontSize: "16px", fontWeight: "600" }}>
+                This report compares activities from <span style={{ color: "#000000" }}>2 weeks ago</span> vs <span style={{ color: "#000000" }}>last week</span>
+              </Column>
+            </Row>
             <Section style={{ width: "100%", maxWidth: "400px", backgroundColor: "#F2F1FE", padding: "20px 50px", borderRadius: "10px", marginTop: "12px" }}>
               <Row>
                 <Column style={{ color: "black", fontSize: "16px", textAlign: "center" }}>Cash Balance</Column>
               </Row>
               <Row>
-                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>NGN 2,000,000</Column>
+                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>
+                  NGN 2,000,000 <span style={{ color: "#667085", fontSize: "16px", fontWeight: "600", paddingLeft: "5px" }}>Last week</span>
+                </Column>
               </Row>
             </Section>
 
@@ -97,7 +104,9 @@ export const AcceptInvitation = () => (
                 <Column style={{ color: "black", fontSize: "16px", textAlign: "center" }}>Total Transactions</Column>
               </Row>
               <Row>
-                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>12</Column>
+                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>
+                  13 <span style={{ color: "#667085", fontSize: "16px", fontWeight: "600", paddingLeft: "5px" }}>Last week</span>
+                </Column>
               </Row>
             </Section>
 
@@ -106,9 +115,28 @@ export const AcceptInvitation = () => (
                 <Column style={{ color: "black", fontSize: "16px", textAlign: "center" }}>Net Profit</Column>
               </Row>
               <Row>
-                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>NGN 1,000,000</Column>
+                <Column style={{ color: "black", fontWeight: "600", fontSize: "24px", textAlign: "center", paddingTop: "5px" }}>
+                  NGN 2,000,000 <span style={{ color: "#667085", fontSize: "16px", fontWeight: "600", paddingLeft: "5px" }}>Last week</span>
+                </Column>
               </Row>
             </Section>
+            <Row>
+              <Column align="center">
+                <Button
+                  style={{
+                    fontSize: "15px",
+                    backgroundColor: "#E0EEFE",
+                    color: "#0469C5",
+                    fontWeight: "600",
+                    padding: "5px 15px",
+                    borderRadius: "15px",
+                    marginTop: "15px",
+                  }}
+                >
+                  No data for last week to compare with
+                </Button>
+              </Column>
+            </Row>
           </Section>
         </Section>
 
@@ -225,7 +253,7 @@ export const AcceptInvitation = () => (
                   style={{
                     fontSize: "18px",
                     backgroundColor: "#E0EEFE",
-                    color: "#0469C5",
+                    color: "#475467",
                     fontWeight: "600",
                     padding: "10px 15px",
                     borderRadius: "5px",
@@ -483,4 +511,4 @@ export const AcceptInvitation = () => (
   </Html>
 );
 
-export default AcceptInvitation;
+export default OneWeek;
