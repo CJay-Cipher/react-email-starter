@@ -8,7 +8,7 @@ const instagramIcon = "https://esemie-assets.s3.eu-west-1.amazonaws.com/socials/
 const playStoreLogo = "https://esemie-assets.s3.eu-west-1.amazonaws.com/app_icons/google_play_icon-sm.png";
 const blueArrow = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/right_arrow_blue-sm.png";
 const chartIcon = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/chart_icon.png";
-const emptypRecord = "https://i.postimg.cc/bJZXBXx4/empty-record.png";
+const emptypRecord = "https://esemie-assets.s3.eu-west-1.amazonaws.com/icons/empty_record.png";
 
 export const EmptyState = () => (
   <Html>
