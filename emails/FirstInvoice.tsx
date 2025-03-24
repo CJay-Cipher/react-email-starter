@@ -7,7 +7,7 @@ const facebookIcon = "https://esemie-assets.s3.eu-west-1.amazonaws.com/socials/f
 const instagramIcon = "https://esemie-assets.s3.eu-west-1.amazonaws.com/socials/instagram-sm.png";
 const playStoreLogo = "https://esemie-assets.s3.eu-west-1.amazonaws.com/app_icons/google_play_icon-sm.png";
 
-export const Invoice = () => (
+export const FirstInvoice = () => (
   <Html>
     <Head />
     <Body
@@ -44,25 +44,24 @@ export const Invoice = () => (
             <Text style={{ fontSize: "16px", color: "black", marginTop: "0" }}>
               Dear <span style={{ fontSize: "16px", fontWeight: "600", color: "black" }}> [firstName],</span>
             </Text>
-            <Text style={{ fontSize: "16px", color: "black" }}>Starting something new can be overwhelming, but we are here to make it easier.</Text>
             <Text style={{ fontSize: "16px", color: "black" }}>
-              We noticed you haven't created your first invoice yet on Esemie. When you generate an invoice for customers, they are more inclined to pay immediately and
-              perceive your business as professional. You can easily share invoices with customers via email and SMS or download and share them on WhatsApp or any
-              preferred platform.
+              Many business owners start their journey fueled by passion. But as you've likely discovered, passion alone isn't enough to keep a business booming.
             </Text>
+
+            <Text style={{ fontSize: "16px", color: "black" }}>To grow and succeed, you need the right people, resources, and tools to support your vision.</Text>
             <Text style={{ fontSize: "16px", color: "black" }}>
-              The Esemie application makes managing your finances easier, and it's completely <span style={{ fontWeight: "600" }}>“Free for Small Businesses.”</span>{" "}
-              Let's take that first step together.
+              We built Esemie exactly for this purpose: <i style={{ fontWeight: "600" }}>to help you grow your business and keep it financially healthy. </i>
             </Text>
+            <Text style={{ fontSize: "16px", color: "black" }}>You've taken the first step, by signing up a while back. Now, let's get you back on track!</Text>
 
             <Button
               style={{ backgroundColor: "#044E97", color: "#FFFFFF", fontWeight: "600", padding: "12px 30px", borderRadius: "5px", marginTop: "10px" }}
               href="https://app.esemie.io/register"
             >
-              Create your first invoice
+              Create Your First Invoice Now
             </Button>
             <Row style={{ marginTop: "20px" }}>
-              <Column style={{ color: "#1F2937", fontSize: "16px", fontWeight: "600" }}>Rooting for your success,</Column>
+              <Column style={{ color: "#1F2937", fontSize: "16px", fontWeight: "600" }}>Warmest regards,</Column>
             </Row>
             <Row>
               <Column style={{ color: "#1F2937", fontSize: "16px", fontWeight: "600" }}>Sandra from Esemie 🧡</Column>
@@ -96,4 +95,4 @@ export const Invoice = () => (
   </Html>
 );
 
-export default Invoice;
+export default FirstInvoice;

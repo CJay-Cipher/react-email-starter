@@ -41,7 +41,7 @@ export const AcceptInvitation = () => (
 
         <Section style={{ width: "100%", padding: "5%", backgroundColor: "#F2F4F7", color: "#4B5563" }}>
           <Section style={{ backgroundColor: "#FFFFFF", padding: "20px", borderRadius: "8px" }}>
-            <Text style={{ color: "#0469C5", fontSize: "32px", fontWeight: "600", marginBottom: "20px", lineHeight: "1", marginTop: "0" }}>
+            <Text style={{ color: "#0469C5", fontSize: "28px", fontWeight: "600", marginBottom: "20px", lineHeight: "1", marginTop: "0" }}>
               [businessName] invited you to manage their Esemie account.
             </Text>
             <Text style={{ fontSize: "20px", fontWeight: "500", color: "#475467" }}>
@@ -66,9 +66,7 @@ export const AcceptInvitation = () => (
             >
               Accept Invitation
             </Button>
-            <Row style={{ marginTop: "30px" }}>
-              <Column style={{ color: "#1F2937", fontSize: "16px", fontWeight: "600" }}>Welcome to Esemie!</Column>
-            </Row>
+            <Text style={{ color: "#1F2937", fontSize: "16px", fontWeight: "600", marginTop: "30px" }}>Welcome to Esemie!</Text>
             <Row>
               <Column style={{ color: "#1F2937", fontSize: "16px", fontWeight: "600" }}>Best regards,</Column>
             </Row>

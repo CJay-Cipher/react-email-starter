@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "build": "email build",
-    "dev": "set PORT=3003 && email dev",
-    "export": "email export"
+    "dev": "email dev",
+    "export": "email export",
+    "port": 3004
   },
   "dependencies": {
     "@react-email/components": "0.0.33",
