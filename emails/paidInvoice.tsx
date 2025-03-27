@@ -60,15 +60,15 @@ export const Welcome = () => (
         <Section style={{ width: "100%", padding: "5%", backgroundColor: "#ffffff", color: "#4B5563" }}>
           <Section>
             <Row style={{}}>
-              <Column align="left" style={{ width: "37%" }}>
+              <Column align="left" style={{ width: "33%" }}>
                 <div style={{ fontSize: "12px", fontWeight: "400", color: "#4E4E4E" }}>BILLED TO</div>
                 <div style={{ fontSize: "14px", fontWeight: "600", color: "#212121", padding: "8px 0" }}>Kelly Audu</div>
               </Column>
-              <Column align="left" style={{ width: "37%" }}>
+              <Column align="center" style={{ width: "33%" }}>
                 <div style={{ fontSize: "12px", fontWeight: "400", color: "#4E4E4E" }}>INVOICE DATE</div>
                 <div style={{ fontSize: "14px", fontWeight: "600", color: "#212121", padding: "8px 0" }}>12th, August 2025</div>
               </Column>
-              <Column align="left" style={{ width: "25%" }}>
+              <Column align="right" style={{ width: "33%" }}>
                 <div style={{ fontSize: "12px", fontWeight: "400", color: "#4E4E4E" }}>DUE DATE</div>
                 <div style={{ fontSize: "14px", fontWeight: "600", color: "#212121", padding: "8px 0" }}>12th, August 2025</div>
               </Column>
