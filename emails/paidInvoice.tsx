@@ -12,7 +12,7 @@ export const Welcome = () => (
           <Row style={{}}>
             <Column align="left">
               <Button href="https://esemie.io">
-                <Img alt="icon" src="https://i.postimg.cc/k4qJXwtP/Esemie-Logo-1.png" height="26" />
+                <Img alt="icon" src="https://esemie-assets.s3.eu-west-1.amazonaws.com/esemie_logos/esemie_logo_blue-lg.png" height="26" />
               </Button>
             </Column>
             <Column align="right" style={{ fontSize: "18px", fontWeight: "600", color: "#4E4E4E" }}>
